@@ -45,7 +45,7 @@
     <title>Online Auctions | Fine Art, Antiques &amp; more | Auctionata</title>
 
     <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MN9MHL&amp;gtm_auth=3Nsuo6qjMu9cbyauDmcZMQ&amp;gtm_preview=env-1&amp;gtm_cookies_win=x"></script>
-    <script async="" src="https://rum-static.pingdom.net/prum.min.js"></script>
+
     <script>
         window.conf = {
             "originLocation": "https://auctionata.com",
@@ -96,16 +96,6 @@
             ['id', pingdomId],
             ['mark', 'firstbyte', (new Date()).getTime()]
         ];
-        (function() {
-            if (!!+pingdomId) {
-                return;
-            }
-            var s = document.getElementsByTagName('script')[0],
-                p = document.createElement('script');
-            p.async = 'async';
-            p.src = '//rum-static.pingdom.net/prum.min.js';
-            s.parentNode.insertBefore(p, s);
-        })();
     </script>
 
     <script>
@@ -608,7 +598,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         </div>
     </div>
     </div>
-    <script type="text/javascript" src="https://cloudfront.loggly.com/js/loggly.tracker.min.js" async=""></script>
+
     <script>
         var _LTracker = _LTracker || [];
         _LTracker.push({
@@ -635,19 +625,6 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
     </script>
 
     <script defer="" src="./Online Auctions _ Fine Art, Antiques &amp; more _ Auctionata_files/modules">
-    </script>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js', {
-                    scope: '/'
-                })
-                .catch(function(e) {
-                    console.error('Error during service worker registration:', e);
-                });
-        } else {
-            console.log('service worker is not supported');
-        }
     </script>
 
     <script type="application/ld+json">
